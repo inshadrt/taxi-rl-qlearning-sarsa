@@ -1,0 +1,16 @@
+{
+  "q_learning": {
+    "algorithm": "q_learning",
+    "alpha": 0.1,
+    "epsilon_floor": 0.05,
+    "success_rate": 1.0,
+    "mean_return": 7.580000000000001
+  },
+  "sarsa": {
+    "algorithm": "sarsa",
+    "alpha": 0.1,
+    "epsilon_floor": 0.01,
+    "success_rate": 1.0,
+    "mean_return": 7.566666666666667
+  }
+}

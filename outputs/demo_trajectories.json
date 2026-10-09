@@ -1,0 +1,712 @@
+[
+  {
+    "label": "Untrained policy",
+    "seed": 30001,
+    "steps": 20,
+    "return_": -83,
+    "illegal": 7,
+    "delivered": false,
+    "shown_only_first_steps": true,
+    "trajectory": [
+      {
+        "step": 1,
+        "state": 181,
+        "action": 1,
+        "next_state": 81,
+        "reward": -1,
+        "return_": -1,
+        "terminated": false
+      },
+      {
+        "step": 2,
+        "state": 81,
+        "action": 0,
+        "next_state": 181,
+        "reward": -1,
+        "return_": -2,
+        "terminated": false
+      },
+      {
+        "step": 3,
+        "state": 181,
+        "action": 4,
+        "next_state": 181,
+        "reward": -10,
+        "return_": -12,
+        "terminated": false
+      },
+      {
+        "step": 4,
+        "state": 181,
+        "action": 4,
+        "next_state": 181,
+        "reward": -10,
+        "return_": -22,
+        "terminated": false
+      },
+      {
+        "step": 5,
+        "state": 181,
+        "action": 2,
+        "next_state": 181,
+        "reward": -1,
+        "return_": -23,
+        "terminated": false
+      },
+      {
+        "step": 6,
+        "state": 181,
+        "action": 2,
+        "next_state": 181,
+        "reward": -1,
+        "return_": -24,
+        "terminated": false
+      },
+      {
+        "step": 7,
+        "state": 181,
+        "action": 2,
+        "next_state": 181,
+        "reward": -1,
+        "return_": -25,
+        "terminated": false
+      },
+      {
+        "step": 8,
+        "state": 181,
+        "action": 5,
+        "next_state": 181,
+        "reward": -10,
+        "return_": -35,
+        "terminated": false
+      },
+      {
+        "step": 9,
+        "state": 181,
+        "action": 4,
+        "next_state": 181,
+        "reward": -10,
+        "return_": -45,
+        "terminated": false
+      },
+      {
+        "step": 10,
+        "state": 181,
+        "action": 4,
+        "next_state": 181,
+        "reward": -10,
+        "return_": -55,
+        "terminated": false
+      },
+      {
+        "step": 11,
+        "state": 181,
+        "action": 3,
+        "next_state": 161,
+        "reward": -1,
+        "return_": -56,
+        "terminated": false
+      },
+      {
+        "step": 12,
+        "state": 161,
+        "action": 4,
+        "next_state": 161,
+        "reward": -10,
+        "return_": -66,
+        "terminated": false
+      },
+      {
+        "step": 13,
+        "state": 161,
+        "action": 0,
+        "next_state": 261,
+        "reward": -1,
+        "return_": -67,
+        "terminated": false
+      },
+      {
+        "step": 14,
+        "state": 261,
+        "action": 0,
+        "next_state": 361,
+        "reward": -1,
+        "return_": -68,
+        "terminated": false
+      },
+      {
+        "step": 15,
+        "state": 361,
+        "action": 3,
+        "next_state": 361,
+        "reward": -1,
+        "return_": -69,
+        "terminated": false
+      },
+      {
+        "step": 16,
+        "state": 361,
+        "action": 5,
+        "next_state": 361,
+        "reward": -10,
+        "return_": -79,
+        "terminated": false
+      },
+      {
+        "step": 17,
+        "state": 361,
+        "action": 3,
+        "next_state": 361,
+        "reward": -1,
+        "return_": -80,
+        "terminated": false
+      },
+      {
+        "step": 18,
+        "state": 361,
+        "action": 3,
+        "next_state": 361,
+        "reward": -1,
+        "return_": -81,
+        "terminated": false
+      },
+      {
+        "step": 19,
+        "state": 361,
+        "action": 1,
+        "next_state": 261,
+        "reward": -1,
+        "return_": -82,
+        "terminated": false
+      },
+      {
+        "step": 20,
+        "state": 261,
+        "action": 3,
+        "next_state": 241,
+        "reward": -1,
+        "return_": -83,
+        "terminated": false
+      }
+    ]
+  },
+  {
+    "label": "Q-learning after 500 episodes",
+    "seed": 30001,
+    "steps": 20,
+    "return_": -20,
+    "illegal": 0,
+    "delivered": false,
+    "shown_only_first_steps": true,
+    "trajectory": [
+      {
+        "step": 1,
+        "state": 181,
+        "action": 0,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -1,
+        "terminated": false
+      },
+      {
+        "step": 2,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -2,
+        "terminated": false
+      },
+      {
+        "step": 3,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -3,
+        "terminated": false
+      },
+      {
+        "step": 4,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -4,
+        "terminated": false
+      },
+      {
+        "step": 5,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -5,
+        "terminated": false
+      },
+      {
+        "step": 6,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -6,
+        "terminated": false
+      },
+      {
+        "step": 7,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -7,
+        "terminated": false
+      },
+      {
+        "step": 8,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -8,
+        "terminated": false
+      },
+      {
+        "step": 9,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -9,
+        "terminated": false
+      },
+      {
+        "step": 10,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -10,
+        "terminated": false
+      },
+      {
+        "step": 11,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -11,
+        "terminated": false
+      },
+      {
+        "step": 12,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -12,
+        "terminated": false
+      },
+      {
+        "step": 13,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -13,
+        "terminated": false
+      },
+      {
+        "step": 14,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -14,
+        "terminated": false
+      },
+      {
+        "step": 15,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -15,
+        "terminated": false
+      },
+      {
+        "step": 16,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -16,
+        "terminated": false
+      },
+      {
+        "step": 17,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -17,
+        "terminated": false
+      },
+      {
+        "step": 18,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -18,
+        "terminated": false
+      },
+      {
+        "step": 19,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -19,
+        "terminated": false
+      },
+      {
+        "step": 20,
+        "state": 281,
+        "action": 2,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -20,
+        "terminated": false
+      }
+    ]
+  },
+  {
+    "label": "Q-learning after 10000 episodes",
+    "seed": 30001,
+    "steps": 17,
+    "return_": 4,
+    "illegal": 0,
+    "delivered": true,
+    "shown_only_first_steps": false,
+    "trajectory": [
+      {
+        "step": 1,
+        "state": 181,
+        "action": 3,
+        "next_state": 161,
+        "reward": -1,
+        "return_": -1,
+        "terminated": false
+      },
+      {
+        "step": 2,
+        "state": 161,
+        "action": 0,
+        "next_state": 261,
+        "reward": -1,
+        "return_": -2,
+        "terminated": false
+      },
+      {
+        "step": 3,
+        "state": 261,
+        "action": 3,
+        "next_state": 241,
+        "reward": -1,
+        "return_": -3,
+        "terminated": false
+      },
+      {
+        "step": 4,
+        "state": 241,
+        "action": 3,
+        "next_state": 221,
+        "reward": -1,
+        "return_": -4,
+        "terminated": false
+      },
+      {
+        "step": 5,
+        "state": 221,
+        "action": 1,
+        "next_state": 121,
+        "reward": -1,
+        "return_": -5,
+        "terminated": false
+      },
+      {
+        "step": 6,
+        "state": 121,
+        "action": 1,
+        "next_state": 21,
+        "reward": -1,
+        "return_": -6,
+        "terminated": false
+      },
+      {
+        "step": 7,
+        "state": 21,
+        "action": 3,
+        "next_state": 1,
+        "reward": -1,
+        "return_": -7,
+        "terminated": false
+      },
+      {
+        "step": 8,
+        "state": 1,
+        "action": 4,
+        "next_state": 17,
+        "reward": -1,
+        "return_": -8,
+        "terminated": false
+      },
+      {
+        "step": 9,
+        "state": 17,
+        "action": 0,
+        "next_state": 117,
+        "reward": -1,
+        "return_": -9,
+        "terminated": false
+      },
+      {
+        "step": 10,
+        "state": 117,
+        "action": 2,
+        "next_state": 137,
+        "reward": -1,
+        "return_": -10,
+        "terminated": false
+      },
+      {
+        "step": 11,
+        "state": 137,
+        "action": 0,
+        "next_state": 237,
+        "reward": -1,
+        "return_": -11,
+        "terminated": false
+      },
+      {
+        "step": 12,
+        "state": 237,
+        "action": 2,
+        "next_state": 257,
+        "reward": -1,
+        "return_": -12,
+        "terminated": false
+      },
+      {
+        "step": 13,
+        "state": 257,
+        "action": 2,
+        "next_state": 277,
+        "reward": -1,
+        "return_": -13,
+        "terminated": false
+      },
+      {
+        "step": 14,
+        "state": 277,
+        "action": 2,
+        "next_state": 297,
+        "reward": -1,
+        "return_": -14,
+        "terminated": false
+      },
+      {
+        "step": 15,
+        "state": 297,
+        "action": 1,
+        "next_state": 197,
+        "reward": -1,
+        "return_": -15,
+        "terminated": false
+      },
+      {
+        "step": 16,
+        "state": 197,
+        "action": 1,
+        "next_state": 97,
+        "reward": -1,
+        "return_": -16,
+        "terminated": false
+      },
+      {
+        "step": 17,
+        "state": 97,
+        "action": 5,
+        "next_state": 85,
+        "reward": 20,
+        "return_": 4,
+        "terminated": true
+      }
+    ]
+  },
+  {
+    "label": "SARSA after 10000 episodes",
+    "seed": 30001,
+    "steps": 17,
+    "return_": 4,
+    "illegal": 0,
+    "delivered": true,
+    "shown_only_first_steps": false,
+    "trajectory": [
+      {
+        "step": 1,
+        "state": 181,
+        "action": 0,
+        "next_state": 281,
+        "reward": -1,
+        "return_": -1,
+        "terminated": false
+      },
+      {
+        "step": 2,
+        "state": 281,
+        "action": 3,
+        "next_state": 261,
+        "reward": -1,
+        "return_": -2,
+        "terminated": false
+      },
+      {
+        "step": 3,
+        "state": 261,
+        "action": 3,
+        "next_state": 241,
+        "reward": -1,
+        "return_": -3,
+        "terminated": false
+      },
+      {
+        "step": 4,
+        "state": 241,
+        "action": 3,
+        "next_state": 221,
+        "reward": -1,
+        "return_": -4,
+        "terminated": false
+      },
+      {
+        "step": 5,
+        "state": 221,
+        "action": 1,
+        "next_state": 121,
+        "reward": -1,
+        "return_": -5,
+        "terminated": false
+      },
+      {
+        "step": 6,
+        "state": 121,
+        "action": 1,
+        "next_state": 21,
+        "reward": -1,
+        "return_": -6,
+        "terminated": false
+      },
+      {
+        "step": 7,
+        "state": 21,
+        "action": 3,
+        "next_state": 1,
+        "reward": -1,
+        "return_": -7,
+        "terminated": false
+      },
+      {
+        "step": 8,
+        "state": 1,
+        "action": 4,
+        "next_state": 17,
+        "reward": -1,
+        "return_": -8,
+        "terminated": false
+      },
+      {
+        "step": 9,
+        "state": 17,
+        "action": 0,
+        "next_state": 117,
+        "reward": -1,
+        "return_": -9,
+        "terminated": false
+      },
+      {
+        "step": 10,
+        "state": 117,
+        "action": 2,
+        "next_state": 137,
+        "reward": -1,
+        "return_": -10,
+        "terminated": false
+      },
+      {
+        "step": 11,
+        "state": 137,
+        "action": 0,
+        "next_state": 237,
+        "reward": -1,
+        "return_": -11,
+        "terminated": false
+      },
+      {
+        "step": 12,
+        "state": 237,
+        "action": 2,
+        "next_state": 257,
+        "reward": -1,
+        "return_": -12,
+        "terminated": false
+      },
+      {
+        "step": 13,
+        "state": 257,
+        "action": 2,
+        "next_state": 277,
+        "reward": -1,
+        "return_": -13,
+        "terminated": false
+      },
+      {
+        "step": 14,
+        "state": 277,
+        "action": 2,
+        "next_state": 297,
+        "reward": -1,
+        "return_": -14,
+        "terminated": false
+      },
+      {
+        "step": 15,
+        "state": 297,
+        "action": 1,
+        "next_state": 197,
+        "reward": -1,
+        "return_": -15,
+        "terminated": false
+      },
+      {
+        "step": 16,
+        "state": 197,
+        "action": 1,
+        "next_state": 97,
+        "reward": -1,
+        "return_": -16,
+        "terminated": false
+      },
+      {
+        "step": 17,
+        "state": 97,
+        "action": 5,
+        "next_state": 85,
+        "reward": 20,
+        "return_": 4,
+        "terminated": true
+      }
+    ]
+  }
+]

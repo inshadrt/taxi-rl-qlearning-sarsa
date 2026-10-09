@@ -1,0 +1,39 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "gymnasium": "1.1.1",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "episodes": 10000,
+  "training_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "development_seeds": [
+    0,
+    1,
+    2
+  ],
+  "validation_reset_seeds": [
+    20000,
+    20099
+  ],
+  "test_reset_seeds": [
+    30000,
+    30299
+  ],
+  "time_limit": 200,
+  "gamma": 0.99,
+  "action_mask": false,
+  "cache": "Gymnasium deterministic P table",
+  "tie_break": "lower alpha then higher floor",
+  "created_utc": "2026-10-09T23:13:30Z"
+}
