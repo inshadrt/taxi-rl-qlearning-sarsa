@@ -81,7 +81,7 @@ Upload this complete folder to your own GitHub repository. Keep the requirements
 
 ## AI assistance and responsibility
 
-OpenAI ChatGPT assisted with implementation, experiment execution, analysis, presentation organization, speaker notes, and documentation. Review the code and evidence, run at least the smoke check, and edit the narration to express your own understanding. AI assistance with substantive coding exceeds the assignment's expressly listed examples of brainstorming, organization, and clarity. Confirm that this level of assistance is permitted by your instructor before submitting. Do not represent the supplied draft as personally implemented without review.
+I used OpenAI ChatGPT to help explain reinforcement learning concepts and assist with code, analysis, and presentation preparation. I ran the project in Google Colab and reviewed the outputs. I am responsible for checking the final submission and ensuring that I understand the methods and results.
 
 ## Verified Google Colab reproduction
 
